@@ -7,6 +7,7 @@ import Circle from './components/Circle';
 import Square from './components/Square';
 import Rectangle from './components/Rectangle';
 import Oval from './components/Oval';
+import Triangle from './components/Triangle';
 
 const App = () =>
 	<div className="App">
@@ -22,6 +23,8 @@ const App = () =>
 			<Rectangle width="400px" height="200px" color="#0f0"/>
 			<h1>Oval Example</h1>
 			<Oval width="400px" height="200px" color="blue"/>
+			<h1>Triangle Example</h1>
+			<Triangle size="400px" color="indigo"/>
 		</center>
 	</div>;
 
