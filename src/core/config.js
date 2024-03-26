@@ -1,10 +1,13 @@
-
 const config = {
-	Shapes: [
-		'Circle',
+	shapes: [
+		'circle',
+		'square',
+		'rectangle',
+		'Triangle',
+		'oval',
 	],
-	Circle: {
-		width: '1000px',
+	circle: {
+		width: '100px',
 		height: '100px',
 		borderRadius: '50%',
 		backgroundColor: 'red',
