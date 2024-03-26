@@ -8,6 +8,7 @@ import Square from './components/Square';
 import Rectangle from './components/Rectangle';
 import Oval from './components/Oval';
 import Triangle from './components/Triangle';
+import Componentcalling from './components/ComponentCalling';
 
 const App = () =>
 	<div className="App">
@@ -25,6 +26,7 @@ const App = () =>
 			<Oval width="400px" height="200px" color="blue"/>
 			<h1>Triangle Example</h1>
 			<Triangle size="400px" color="indigo"/>
+			<Componentcalling/>
 		</center>
 	</div>;
 
