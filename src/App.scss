@@ -1,11 +1,21 @@
 .App {
+	position:absolute;
+	width:100vw;
+	height:100vh;
+	background-color:rgb(237, 100, 230);
 	text-align: center;
 
 	button {
 		font-weight: bold;
 	}
 }
-.red-background{
-	background:'yellow';
+.myclass {	
+			width:50%;
+			height:50%;
+			background-color: rgb(172, 20, 139);
 }
-
+.red-background{
+	width: 50%;
+	height: 50%;
+	background-color: red;
+  }
