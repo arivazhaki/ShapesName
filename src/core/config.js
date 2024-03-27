@@ -23,15 +23,19 @@ const config = {
 		height: '300px',
 		backgroundColor: '#00f',
 	},
-	triangle: {
-		size: '400px',
-		color: 'indigo',
-	},
 	oval: {
-		width: '200px',
-		height: '100px',
+		width: '400px',
+		height: '200px',
 		backgroundColor: '#f00',
 		borderRadius: '50%',
+	},
+	triangle: {
+		width: 0,
+		height: 0,
+		borderTop: '600px',
+		borderBottom: '400px solid transparent',
+		borderRight: '400px solid indigo',
+
 	},
 };
 
