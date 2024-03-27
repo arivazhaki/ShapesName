@@ -27,6 +27,12 @@ const config = {
 		size: '400px',
 		color: 'indigo',
 	},
+	oval: {
+		width: '200px',
+		height: '100px',
+		backgroundColor: '#f00',
+		borderRadius: '50%',
+	},
 };
 
 export default config;
