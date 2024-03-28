@@ -1,3 +1,6 @@
+
+/* eslint-disable no-magic-numbers */
+/* eslint-disable no-undef */
 /* eslint-disable no-dupe-keys */
 const config = {
 	shapes: [
@@ -37,6 +40,15 @@ const config = {
 		borderRight: '400px solid indigo',
 
 	},
+	size:
+		[
+			'small',
+			'medium',
+			'large',
+		],
+	small: { transform: scale(0.7) },
+	medium: { transform: scale(1) },
+	large: { transform: scale(1.4) },
 };
 
 export default config;
